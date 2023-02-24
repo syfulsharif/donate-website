@@ -1,6 +1,8 @@
 * {
     margin: 0;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Inter', sans-serif;
+    /* font-family: 'Open Sans', sans-serif; */
+    /* font-family: 'Poppins', sans-serif; */
 }
 
 .header {
@@ -23,12 +25,17 @@
     line-height: 79px;
 }
 
-.hero-description {
+#hero-desc {
+    color: #FFFFFF;
+    padding: 20px 30px;
+}
+/* .hero-description {
     padding: 20px 30px;
     font-weight: 400;
     font-size: 19px;
     color: #FFFFFF;
-}
+    font-family: 'Poppins', sans-serif;
+} */
 
 .btn-primary {
     width: 160px;
@@ -63,6 +70,9 @@
     font-size: 18px;
     color: #707070;
     text-align: center;
+    font-family: 'Poppins', sans-serif;
+    line-height: 28px;
+
 }
 
 .amount{
@@ -104,4 +114,10 @@
     width: 765px;
     border: 1px solid #DADADA;
     margin: 30px auto;
+}
+
+/* Other Donate Plan Section */
+
+.other-donate {
+    text-align: center;  
 }

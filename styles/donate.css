@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.header {
+    background-image: url(../images/donation13.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: auto;
+    height: 669px;
+}
+
+.banner {
+    text-align: center;
+    padding: 174px 307px;
+}
+
+.hero-text {
+    font-weight: 700;
+    font-size: 65px;
+    color: #FFFFFF;
+    line-height: 79px;
+}
+
+.hero-description {
+    padding: 20px 30px;
+    font-weight: 400;
+    font-size: 19px;
+    color: #FFFFFF;
+}
+
+.btn-primary {
+    width: 160px;
+    height: 56px;
+    background: #FF5959;
+    border-radius: 5px;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    border: none;
+    text-align: center;
+    padding: 16px 12px;
+    margin: auto;
+}
+
+/* Donate Today Section */
+.donate {
+    text-align: center;
+}
+.donate-title {
+    font-weight: 700;
+    font-size: 45px;
+    color: #121212;
+    text-align: center;
+    padding-top: 130px;
+}
+
+.donate-description {
+    margin-top: 20px;
+    font-weight: 400px;
+    font-size: 18px;
+    color: #707070;
+    text-align: center;
+}
+
+.amount{
+    margin-top: 50px;
+    display: flex;
+    gap: 22px;
+    justify-content: center;
+}
+
+
+.amt-btn {
+    border: none;
+    width: 135px;
+    height: 123px;
+    background: #FAFAFA;
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center;
+    color: #707070;
+}
+
+#default-btn {
+    color: #FF5959;
+    background: #FFEEEE;
+    border: 2px solid #FF5959;
+}
+
+.other-amt {
+    font-weight: 400;
+    font-size: 25px;
+    text-align: center;
+    color: #B3B3B3;
+    margin-top: 60px;
+}
+
+.other-amt-hl {
+    width: 765px;
+    border: 1px solid #DADADA;
+    margin: 30px auto;
+}
